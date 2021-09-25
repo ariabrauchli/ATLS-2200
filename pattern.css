@@ -1,0 +1,103 @@
+body {
+  background-color: bisque;
+}
+
+h1 {
+  color: rosybrown;
+  text-align: center;
+  font-size: 40px;
+  margin: auto;
+  width: 50%;
+  border: 12px solid peachpuff;
+  padding: 20px;
+  font-family: Copperplate, serif;
+}
+h2 {
+  color: LightPink;
+  font-size: 48px;
+  margin-left:520px;
+  width: 50%;
+  padding: 20px;
+  font-family: monaco, sans-serif;
+
+}
+h3 {
+  color: red;
+  font-size: 28px;
+  margin-left:600px;
+  width: 50%;
+  padding: 20px;
+  font-family: ariel, sans-serif;
+}
+h4 {
+  color: salmon;
+  font-size: 214px;
+  margin-left:60px;
+  width: 50%;
+  padding: 10px;
+  font-family: ariel, sans-serif;
+}
+h5 {
+  color: crimson;
+  font-size: 208px;
+  margin-left:60px;
+  width: 50%;
+  padding: 10px;
+  font-family: ariel, sans-serif;
+}
+h6 {
+  color: salmon;
+  font-size: 12px;
+  margin-left:60px;
+  width: 50%;
+  padding: 10px;
+  font-family: ariel, sans-serif;
+}
+p {
+  color: salmon;
+  font-size: 18px;
+  font-stretch: expanded;
+  margin: auto;
+  width: 50%;
+  padding: 15px;
+  text-align: center;
+  font-family: ariel, serif;
+
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 25px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+}
+.button:hover {
+  background-color: LightPink;
+  color: white;
+  }
+  .button:hover{
+  color:grey
+  }
+
+  a:link {
+    color: red;
+  }
+
+  a:visited {
+    color: salmon;
+  }
+  a:hover {
+    color: hotpink;
+  }
+  a:active {
+    color: crimson;
+  }

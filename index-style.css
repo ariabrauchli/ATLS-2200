@@ -1,0 +1,39 @@
+body {
+  background-color: BlanchedAlmond;
+}
+
+h1 {
+  color: brown;
+  text-align: center;
+  font-size: 40px;
+  margin: auto;
+  width: 50%;
+  border: 8px solid burlywood;
+  padding: 10px;
+  font-family: Copperplate, serif;
+}
+h2 {
+  color: brown;
+  font-size: 28px;
+  margin-left:520px;
+  width: 50%;
+  padding: 10px;
+  font-family: monaco, serif;
+
+}
+p {
+  color: saddlebrown;
+  font-size: 18px;
+  font-stretch: expanded;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+  font-family: Papyrus, serif;
+
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

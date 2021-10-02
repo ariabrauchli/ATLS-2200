@@ -1,35 +1,79 @@
 body {
-  background-color: BlanchedAlmond;
+  background-color: #E0C097;
 }
 
 h1 {
-  color: brown;
+  color: #5C3D2E;
   text-align: center;
   font-size: 40px;
   margin: auto;
   width: 50%;
-  border: 8px solid burlywood;
+  border: 8px solid #5C3D2E;
   padding: 10px;
-  font-family: Copperplate, serif;
-}
-h2 {
-  color: brown;
-  font-size: 28px;
-  margin-left:520px;
-  width: 50%;
-  padding: 10px;
-  font-family: monaco, serif;
+width: 729px;
+height: 119px;
+left: 37px;
+top: 209px;
+
+font-family: Forum;
+font-style: normal;
+font-weight: normal;
+font-size: 96px;
+line-height: 106px;
+
 
 }
+h2 {
+
+width: 526px;
+height: 80px;
+
+top: 362px;
+
+font-style: normal;
+font-weight: normal;
+line-height: 99px;
+
+color: #B85C38;
+  font-size: 32px;
+  margin-left:610px;
+  width: 50%;
+  padding: 10px;
+
+
+}
+h3{
+
+font-family: Averia Libre;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+
+margin-left:660px;
+color: #D79771;
+}
 p {
-  color: saddlebrown;
+
+width: 101px;
+height: 20px;
+left: 60px;
+top: 48px;
+
+font-family: Arvo;
+font-style: normal;
+font-weight: normal;
+line-height: 17px;
+
+color: #2D2424;
+
+
   font-size: 18px;
   font-stretch: expanded;
   margin: auto;
   width: 50%;
   padding: 10px;
   text-align: center;
-  font-family: Papyrus, serif;
+
 
 }
 img {

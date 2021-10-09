@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="index-style.css">
+    <meta charset="utf-8">
+    <title>Hello Me</title>
+  </head>
+<body>
+
+<h1> About Me!</h1>
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTU3flKSV8_cxmO-wOlY04TXS-KdG5PJg4s-g&usqp=CAU" alt="one direction">
+<h2>Aria Brauchli</h2>
+<h3>(she/her)</h3>
+
+<p>Hi! My name is Aria Brauchli, and I'm a junior majoring in Creative Technology and Design.</p>
+<p>I am from Bethesda, Maryland, and enjoy taking photos. I'm excited to learn more about </p>
+<p>web design so I can reach my goal of hopefully make my own photography website one </p>
+<p> day with my refined skills. </p>
+<button onclick="ChangeBackground()">Background</button>
+
+<script>
+const btn = document.querySelector('button');
+var backgrounds = ['black', '#7C624B', '#E0C097',];
+var count = 0;
+
+function ChangeBackground(){
+
+      if(count<=backgrounds.length){
+        count++;
+      }else {
+         count=0;
+      }
+
+    strtChng(count);
+
+}
+
+
+
+function strtChng(i){
+  document.body.style.backgroundColor = backgrounds[i];
+  console.log(backgrounds[i]);
+}
+
+</script>
+<button onclick="myFunction()">Click me</button>
+
+<p id="button"></p>
+
+<script>
+function myFunction() {
+  document.getElementById("button").innerHTML = "Do I win?";
+}
+
+</script>
+</body>
+</html>

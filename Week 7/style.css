@@ -1,0 +1,48 @@
+#quotesection{
+background-color: #FBC09C;
+margin: 30vh 20vw;
+padding: 10vh 10vw;
+border-radius: 8px;
+}
+
+button{
+  border: black solid 3px;
+  padding: 1vh 3vw;
+  float: center;
+  margin-top: 1vh;
+  background-color: #F3E6DF;
+  color: black;
+  font-family:"Playfair Display SC";
+  font-weight: bold;
+}
+button:hover{
+  border: #E27C3E solid 3px;
+  color: #E27C3E;
+}
+button:active{
+  border: #C45D1D solid 5px;
+  color: #C45D1D;
+
+}
+
+h1{
+  color: black;
+  font-family: "Cormorant Infant";
+}
+
+#flex{
+  display: flex;
+  width: auto;
+  margin: 150px;
+}
+.flexitem{
+  flex-grow: 1;
+  margin-left: 10px;
+}
+.flexitem2{
+  flex-grow: 2;
+}
+div{
+  border: 1px solid black;
+  margin-left: 2vw;
+}

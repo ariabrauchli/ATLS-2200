@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Quote Machine</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display+SC">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cormorant+Infant">
+</head>
+<body>
+<section id=quotesection>
+<h1 id="qtext"> Welcome to the Quote Machine. Press the button below to access Harry Styles' mind.</h1>
+<button id="newquote">New Quote</button>
+</section>
+<section id= "flex">
+  <div class="flexitem">
+    <h2>one</h2>
+  </div>
+  <div class="flexitem">
+    <h2>two</h2>
+  </div>
+  <div class="flexitem">
+    <h2>three</h2>
+  </div>
+  </section>
+
+<script>
+  const quotes = ["Be a lover. Choose love. Give love. Love everyone, always.","If you're going to get in trouble for hitting someone, might as well hit them hard.", "Don’t choose the one who is beautiful to the world. But rather, choose the one who makes your world beautiful.",
+  "People often ask me why don’t you have a girlfriend. Then I smile and say: I have thousands. Some just haven’t met me yet.","Trick Or Treat People With Kindness.", "You have a choice where you can either be all right to someone or you can be a little bit nicer, and that can make someone’s day.","We have a choice... to live or to exist."]
+  let quotecount = 0;
+
+  document.getElementById("newquote").addEventListener("click", buttonClicked)
+  function buttonClicked(){
+    console.log(quotes[quotecount]);
+    document.getElementById("qtext").innerHTML = quotes[quotecount];
+    if(quotecount>=6){
+      quotecount = 0;
+    }else{
+      quotecount++
+    }
+
+    }
+  </script>
+  </body>
+  </html>

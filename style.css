@@ -1,0 +1,106 @@
+body{
+background-color: #E3DFEB;
+}
+
+.weekday{
+background-color: #D3CBE1;
+}
+
+h1{
+
+width: 506px;
+height: 119px;
+left: 37px;
+top: 63px;
+
+font-family: Lancelot;
+font-style: normal;
+font-weight: normal;
+font-size: 70px;
+line-height: 106px;
+
+color: #158467;
+
+border: 1px solid #F8E1BC;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+h2{
+width: 300px;
+height: 119px;
+left: 37px;
+top: 209px;
+
+font-family: Mate;
+font-style: normal;
+font-weight: normal;
+font-size: 50px;
+line-height: 117px;
+
+color: #158467;}
+
+#flex{
+  display: flex;
+  width: auto;
+  margin: 150px;
+}
+.flexitem{
+  flex-grow: 1;
+  margin-left: 10px;
+}
+.flexitem2{
+  flex-grow: 2;
+}
+div{
+  border: 1px solid black;
+
+}
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  font-family: Paprika;
+  background-color: #82AA92;
+  float: left;
+  border: 1px solid #E8D287;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.5s;
+  font-size: 17px;
+  font-family: Paprika;
+  color: #E8D287;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  font-family: Paprika;
+  background-color: #158467;
+  float: left;
+  border: 1px solid #E8D287;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.5s;
+  font-size: 17px;
+  font-family: Paprika;
+  color: #E8D287;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #10654F;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}

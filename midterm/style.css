@@ -2,7 +2,7 @@ E5E5E5<---/* TODO: align bottoms, center and equalize spaces between cards,
  make tab buttons functionable, including looking different when clicked on */
 
 .card{
-  height: 40%;
+  height: 100%;
   width: 300px;
 
 
@@ -12,6 +12,7 @@ E5E5E5<---/* TODO: align bottoms, center and equalize spaces between cards,
 .card-header{
   height: 100%;
 }
+
 .weekday{
   width: 360px;
   background-color: #D3CBE1;
@@ -95,6 +96,7 @@ div{
 }
 /* Style the tab */
 .tab {
+
   overflow: hidden;
   background-color: #D3CBE1;
 
@@ -138,6 +140,7 @@ div{
 
 /* Style the tab content */
 .tabcontent {
+  
   padding: 6px 12px;
   border: 1px solid #ccc;
   border-top: none;

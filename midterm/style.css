@@ -1,17 +1,39 @@
+<---/* TODO: align bottoms, center and equalize spaces between cards,
+ make tab buttons functionable, including looking different when clicked on */
+
+.card{
+  width: 20rem;
+  padding: 1rem;
+  background-color: #E3DFEB;
+
+
+
+}
+.weekday{
+  background-color: #D3CBE1;
+}
+
+
 body{
 background-color: #E3DFEB;
+
 }
 
-.weekday{
-background-color: #D3CBE1;
-}
 
+.scw{
+  border: 5px solid #158467;
+  background-color: #D3CBE1;
+  padding-bottom: 250px;
+  text-align: center;
+  padding-top: 220px;
+
+}
 h1{
 
-width: 506px;
+
 height: 119px;
 left: 37px;
-top: 63px;
+
 
 font-family: Lancelot;
 font-style: normal;
@@ -21,7 +43,6 @@ line-height: 106px;
 
 color: #158467;
 
-border: 1px solid #F8E1BC;
 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 h2{
@@ -30,14 +51,23 @@ height: 119px;
 left: 37px;
 top: 209px;
 
-font-family: Mate;
+font-family: 'Gar-A-MondTall', sans-serif;
 font-style: normal;
 font-weight: normal;
 font-size: 50px;
 line-height: 117px;
 
-color: #158467;}
+color: #158467}
 
+h3{
+  font-family: 'Fowviel', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 33px;
+line-height: 63px;
+
+color: #80A580;
+}
 #flex{
   display: flex;
   width: auto;
@@ -51,34 +81,34 @@ color: #158467;}
   flex-grow: 2;
 }
 div{
-  border: 1px solid black;
+  padding: 1px 1px;
 
+  background-color: #D3CBE1
 }
 /* Style the tab */
 .tab {
   overflow: hidden;
-  border: 1px solid #ccc;
-  background-color: #f1f1f1;
+  background-color: #D3CBE1;
 }
 
 /* Style the buttons inside the tab */
 .tab button {
-  font-family: Paprika;
+  font-family: 'Montaga', sans-serif;
   background-color: #82AA92;
   float: left;
-  border: 1px solid #E8D287;
+  border: 5px solid #E8D287;
   border-radius: 5px;
+  margin: 10px;
   cursor: pointer;
-  padding: 14px 16px;
+  padding: 10px 12px;
   transition: 0.5s;
   font-size: 17px;
-  font-family: Paprika;
   color: #E8D287;
 }
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-  font-family: Paprika;
+  font-family: 'Montaga', sans-serif;
   background-color: #158467;
   float: left;
   border: 1px solid #E8D287;
@@ -87,7 +117,6 @@ div{
   padding: 14px 16px;
   transition: 0.5s;
   font-size: 17px;
-  font-family: Paprika;
   color: #E8D287;
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
 }
@@ -99,8 +128,18 @@ div{
 
 /* Style the tab content */
 .tabcontent {
-  display: none;
   padding: 6px 12px;
   border: 1px solid #ccc;
   border-top: none;
+
+}
+li{font-family: Montaga;
+font-style: normal;
+font-weight: normal;
+font-size: 17px;
+line-height: 17px;
+
+color: #065446;
+
+
 }

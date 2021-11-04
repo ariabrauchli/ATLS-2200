@@ -2,16 +2,21 @@
  make tab buttons functionable, including looking different when clicked on */
 
 .card{
-  width: 20rem;
-  padding: 1rem;
-  background-color: #E3DFEB;
+  height: 40%;
+  width: 300px;
 
 
 
+
+}
+.card-header{
+  height: 100%;
 }
 .weekday{
+  width: 360px;
   background-color: #D3CBE1;
 }
+
 
 
 body{
@@ -21,7 +26,9 @@ background-color: #E3DFEB;
 
 
 .scw{
-  border: 5px solid #158467;
+
+  width: 360px;
+  border: 10px solid #158467;
   background-color: #D3CBE1;
   padding-bottom: 250px;
   text-align: center;
@@ -50,7 +57,7 @@ width: 300px;
 height: 119px;
 left: 37px;
 top: 209px;
-
+text-align: center;
 font-family: 'Gar-A-MondTall', sans-serif;
 font-style: normal;
 font-weight: normal;
@@ -60,7 +67,8 @@ line-height: 117px;
 color: #158467}
 
 h3{
-  font-family: 'Fowviel', sans-serif;
+  text-align: center;
+font-family: 'Fowviel', sans-serif;
 font-style: normal;
 font-weight: normal;
 font-size: 33px;
@@ -89,6 +97,7 @@ div{
 .tab {
   overflow: hidden;
   background-color: #D3CBE1;
+
 }
 
 /* Style the buttons inside the tab */
@@ -98,12 +107,13 @@ div{
   float: left;
   border: 5px solid #E8D287;
   border-radius: 5px;
-  margin: 10px;
+  margin: 6px;
   cursor: pointer;
   padding: 10px 12px;
   transition: 0.5s;
   font-size: 17px;
   color: #E8D287;
+
 }
 
 /* Change background color of buttons on hover */
@@ -138,7 +148,7 @@ font-style: normal;
 font-weight: normal;
 font-size: 17px;
 line-height: 17px;
-
+align: center;
 color: #065446;
 
 
